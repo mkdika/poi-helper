@@ -6,7 +6,9 @@
 
 ## Features
 
-1. Collection to Plain Excel
+#### 1. Collection to Plain Excel
+
+Usage example:
 
 ```java
 // data types is List of Person class
