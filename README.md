@@ -11,14 +11,12 @@
 Usage example:
 
 ```java
-// data types is List of Person class
+// data type is List of Person class
 List<Person> data = personService.findAll();
 
-// instance helper and generate excel file.
+// Instance helper and generate to excel file.
 CollectionToPlainExcel coex = new CollectionToPlainExcel();
 coex.setData(data);
-
-// write data to excel file
 coex.writeToExcel("c:\\temp\\data.xlsx");
 ```
 
